@@ -1,0 +1,484 @@
+/*ESTILO GENERAL*/
+
+body{
+	background-color:#ffe7a3;
+	font-family:sans-serif;
+	font-style:italic;
+	margin:0;
+}
+
+h1{
+	font-size: 50px;
+	font-family: Serif;
+	color: #806009;
+}
+
+h2,h3{
+	font-size: 40px;
+	font-family: Sans-Serif;
+	color: #806009;
+}
+
+b {
+	color: chocolate;
+}
+
+/*ESTILO HEADER*/
+
+
+#nave {
+	background-color: #faedd8;
+}
+
+.menu img{
+	witdh:auto;
+	height:auto;
+	margin:0px auto;
+	padding:0px 0px 0px 0px;
+	display-items:block;
+}
+
+#nave img {
+    display: block;      
+    margin: 0 auto;       
+    max-width: 200px;     
+    width: 100%;
+    padding:20px; 
+
+}
+
+#nave ul {
+    width: 100%;         
+    text-align: center;  
+    padding: 15px 0;
+    margin: 0;
+    background-color:#915c20;
+}
+
+
+#nave li{
+	list-style:none;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	display: inline-block;
+	margin:0px 10px;
+	padding:;
+	width:100px;
+	height:auto;
+}
+
+#nave a{
+	list-style:none;
+	text-decoration:none;
+	color: white;
+}
+
+#nave a:hover{
+	list-style:none;
+	text-decoration:none;
+	color:#633d12;
+	text-decoration:underline;
+}
+
+/*ESTILO SECCION INICIO*/
+
+.inicio{
+	margin:30px 30px;
+	padding:40px;
+	background-color:#f1e6d7;
+	border-radius: 10px;
+	display:block;
+	text-align:center;
+	border: 2px solid chocolate;
+	background-image: url("../img/espiga-adorno-izq.png");
+	background-position:top-left;
+	background-repeat: no-repeat;
+
+}
+
+.inicio p{
+	font-size:16px;
+	font-weight:normal;
+	font-family:Verdana;
+	border-radius:10px;
+	margin: 30px 145px 30px 145px;
+	padding: 20px 20px 20px 20px;
+	color:#674326;
+	box-shadow: 0px 2px 0.2px;
+	background-color:rgba(228, 224, 215, 0.8);
+	display: block;
+	
+}
+
+.inicio img{
+	border-radius: 20px 20px 20px 20px;
+	display:inline-block;
+	padding:10px 0px;
+}
+
+/*ESTILO NOSOTROS*/
+
+.nosotros{
+	margin:30px 30px;
+	padding:40px;
+	background-color:#f1e6d7;
+	border-radius: 10px;
+	display:block;
+	text-align:center;
+	border: 2px solid chocolate;
+	padding:20px 20px;
+	background-image: url("../img/espiga-adorno-der.png");
+	background-position: right 0% bottom 100%;;
+	background-repeat: no-repeat;
+}
+
+.nosotros h2{
+	text-decoration:underline;
+
+}
+
+
+.nosotros p{
+	font-size:16px;
+	font-weight:normal;
+	font-family:Verdana;
+	border-radius:10px;
+	margin:  30px 145px 30px 145px;
+	padding: 20px 20px 20px 20px;
+	color:#674326;
+	box-shadow: 0px 2px 0.2px;
+	background-color:rgba(228, 224, 215, 0.8);
+
+}
+
+.nosotros img{
+	border-radius: 20px 20px 20px 20px;
+	display:inline-block;
+	padding:10px 0px;
+	margin:20px 20px;
+	width:25%;
+	height:auto;
+}
+
+.nosotros a{
+	list-style:none;
+	text-decoration:none;
+	color:#633d12;
+}
+
+.nosotros a:hover{
+	list-style:none;
+	text-decoration:none;
+	color:white;
+	text-decoration:underline;
+}
+
+button{
+font-size:28px;
+color:white;
+background-color:#d6a976;
+border-radius:10px;
+padding:15px;
+}
+
+button:hover{
+	background-color:white;
+    font-size:30px;
+    color:#633d12;
+    border-radius:10px;
+    padding:15px;
+}
+
+
+	/*ESTILO BANNER ENCARGOS*/
+
+.encargos{
+	display:block;
+	background-color:#633d12;
+	padding:50px 0;
+	margin:0;
+	font-size:60px;
+	color:white;
+	text-align:center;
+}
+
+
+/*ESTILO RECETAS*/
+
+.recetas{
+	margin:30px 30px;
+	padding:40px;
+	background-color:#f1e6d7;
+	border-radius: 10px;
+	display:block;
+	text-align:center;
+	border: 2px solid chocolate;
+	padding:20px 20px;
+	background-image: url("../img/espiga-adorno-izq.png");
+	background-position:top-left;
+	background-repeat: no-repeat;
+}
+
+.recetas h2{
+	text-decoration:underline;
+
+}
+
+
+.recetas p{
+	font-size:16px;
+	font-weight:normal;
+	font-family:Verdana;
+	border-radius:10px;
+	margin: 30px 145px 30px 145px;
+	padding: 20px 20px 20px 20px;
+	color:#674326;
+	box-shadow: 0px 2px 0.2px;
+	background-color:rgba(228, 224, 215, 0.8);
+
+}
+
+[src*="youtube.com"]{
+	margin:30px 10px;
+	border: 4px solid chocolate;
+	border-radius: 10px;
+}
+
+/*ESTILO PODCAST*/
+
+.podcast{
+	margin:30px 30px;
+	padding:40px;
+	background-color:#f1e6d7;
+	border-radius: 10px;
+	display:block;
+	text-align:center;
+	border: 2px solid chocolate;
+	padding:20px 20px;
+	background-image: url("../img/espiga-adorno-der.png");
+	background-position:right 0% bottom 100%;;
+	background-repeat: no-repeat;
+}
+
+.podcast h2{
+	text-decoration:underline;
+}
+
+.podcast h3{
+	text-align:left;
+	font-size:17px;
+	margin: 20px 20px;
+}
+
+.podcast p{
+	font-size:16px;
+	font-weight:normal;
+	font-family:Verdana;
+	border-radius:10px;
+	margin: 30px 145px 30px 145px;
+	padding: 20px 20px 20px 20px;
+	color:#674326;
+	box-shadow: 0px 2px 0.2px;
+	background-color:rgba(228, 224, 215, 0.8);
+}
+
+.podcast audio{
+	item-align:left;
+	display:block;
+	padding:30px 20px;
+}
+
+.podcast article{
+	background-color:#d6a976;
+	padding: 10px 10px;
+	margin:20px 20px;
+	border:3px solid chocolate;
+	border-radius:10px 30px;
+	display:inline-block;
+}
+
+.podcast article:hover{
+	background-color:white;
+
+}
+.podcast img{
+	width:40%;
+	height:auto;
+}
+
+
+/*ESTILO RRSS*/
+
+.rrss{
+	margin:30px 30px;
+	padding:40px;
+	background-color:#f1e6d7;
+	border-radius: 10px;
+	display:block;
+	text-align:center;
+	border: 2px solid chocolate;
+	padding:20px 20px;
+	background-image: url("../img/espiga-adorno-izq.png");
+	background-position:top-left;;
+	background-repeat: no-repeat;
+}
+
+.rrss h2{
+	text-decoration:underline;
+}
+
+.rrss h3{
+	text-align:left;
+	font-size:17px;
+	margin: 20px 20px;
+}
+
+.rrss li{
+	list-style:none;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	display: inline-block;
+	margin:0px 10px;
+	padding:;
+	width:100px;
+	height:auto;
+}
+
+.rrss p{
+	font-size:16px;
+	font-weight:normal;
+	font-family:Verdana;
+	border-radius:10px;
+	margin: 30px 145px 30px 145px;
+	padding: 20px 20px 20px 20px;
+	color:#674326;
+	box-shadow: 0px 2px 0.2px;
+	background-color:rgba(228, 224, 215, 0.8);
+}
+
+
+.rrss img{
+	width:50%;
+	height:auto;
+}
+
+
+.rrss img:hover{
+	width:70%;
+	height:auto;
+}
+
+/*ESTILO FORMULARIO*/
+
+
+.contacto{
+	margin:30px 30px;
+	padding:40px;
+	background-color:#f1e6d7;
+	border-radius: 10px;
+	display:block;
+	text-align:center;
+	border: 2px solid chocolate;
+	padding:20px 20px;
+	background-image: url("../img/espiga-adorno-der.png");
+	background-position:right 0% bottom 100%;;
+	background-repeat: no-repeat;
+}
+
+.contacto h2{
+	text-decoration:underline;
+}
+
+.contacto p{
+	font-size:16px;
+	font-weight:normal;
+	font-family:Verdana;
+	border-radius:10px;
+	margin: 30px 145px 30px 145px;
+	padding: 20px 20px 20px 20px;
+	color:#674326;
+	box-shadow: 0px 2px 0.2px;
+	background-color:rgba(228, 224, 215, 0.8);
+}
+
+
+label{
+	text-align: left;
+	display: block;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#674326;
+	margin: 0px -90px;
+	padding: 20px 0px 2px 2px;
+}
+
+input{
+   display: block;
+   width: 100%;
+   margin:0px -90px;
+   padding:0px 20px 0px 10px;
+}
+
+textarea{
+   display: block;
+   width: 100%;
+   margin:0px -90px;
+   padding:0px 20px 0px 10px;
+}
+
+
+form{
+	margin:30px 30px;
+	padding:25px 18px 80px 115px;
+	border:2px solid #674326;
+	border-radius: 10px 10px;
+	display: inline-block;
+	width: 14%;
+    margin-left: 143px;
+    margin-right: auto;
+    background: linear-gradient(#f1e6d7,#87692d);
+}
+
+input[type="submit"]{
+	margin:16px -90px;
+	padding:13px;
+	background-color: chocolate;
+	border:1px solid white;
+	border-radius:;
+	font-weight:600;
+	color:white;
+}
+
+input[type="submit"]:hover{
+	margin:16px -90px;
+	padding:13px;
+	background-color: white;
+	border:1px solid white;
+	border-radius:;
+	font-weight:600;
+	color:brown;
+}
+
+.contacto img[src="img/panadero33.jpg"]
+{
+	display:inline-block;
+	margin: 14px 0px -125px 130px;
+	padding:10px 3px 0px 0px;
+	border-radius:10px;
+	width:40%;
+}
+
+
+/*FOOTER*/
+
+footer{
+	background-color:#54320b;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+	padding: 30px 30px;
+	margin:30px 0px 0px 0px;
+}
